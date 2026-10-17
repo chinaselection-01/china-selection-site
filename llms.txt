@@ -10,9 +10,10 @@ declaration elements, and packing data up front, so buyers can assess customs ri
 - Payments settle directly between buyer and factory via licensed payment institutions (XTransfer, WorldFirst, Airwallex).
 
 ## Categories
-- Pet Supplies (cat trees, cat sofas, scratchers, ocean balls) — HS 6307900090 (ocean ball HS pending verification)
-- Drinkware (vacuum bottles, mugs) — private-label, HS confirmed per model
-- Chicken Coops / CedarHaus (solid wood) — HS 4421999090
+- Category directory (all industries & subcategories): https://china-selection.com/categories/
+- Animals & Pet Products (cat trees, cat sofas, scratchers, ocean balls) — HS 6307900090 (ocean ball HS pending verification)
+- Farm & Livestock Equipment (chicken coops, runs, enclosures / CedarHaus line, solid wood) — HS 4421999090
+- Kitchen & Tableware / Drinkware (vacuum bottles, mugs, tumblers) — private-label, HS confirmed per model
 
 ## Buyer tools
 - Order tracking: by order number / B/L number / container number, no login. https://china-selection.com/order/
@@ -32,6 +33,7 @@ declaration elements, and packing data up front, so buyers can assess customs ri
 
 ## Pages
 - Home: https://china-selection.com/
+- All Categories: https://china-selection.com/categories/
 - Pet Supplies: https://china-selection.com/pet/
 - Drinkware: https://china-selection.com/drinkware/
 - Coops (CedarHaus): https://china-selection.com/coop/

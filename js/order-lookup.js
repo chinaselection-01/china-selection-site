@@ -43,7 +43,7 @@
   function go() {
     var v = (input.value || "").trim().toLowerCase();
     if (!v) { fail(); return; }
-    fetch("/data/shipment-data.json").then(function (r) { return r.json(); }).then(function (data) {
+    fetch("../data/shipment-data.json").then(function (r) { return r.json(); }).then(function (data) {
       var hit = (data.orders || []).filter(function (o) {
         return (o.orderNo && o.orderNo.toLowerCase() === v) ||
                (o.blNo && o.blNo.toLowerCase() === v) ||
