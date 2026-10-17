@@ -1,0 +1,40 @@
+{
+  "_note": "SAMPLE shipment data for the static order-tracking demo. In production this JSON is served by the inquiry/order backend (Phase 2). The front-end reads orderNo / blNo / containerNo as lookup keys. No buyer PII is stored here.",
+  "stages": ["Confirmed","In Production","Inspection","Shipped","In Transit","Arrived","Customs Clearance","Delivered"],
+  "stageTimeoutsDays": [null, 45, 7, null, 35, 5, 10, null],
+  "orders": [
+    {
+      "orderNo": "CS2026-0001",
+      "blNo": "MAEU7739104",
+      "containerNo": "MSKU9023417",
+      "product": "Felt Cat Tree (DS series)",
+      "qty": "480 pcs",
+      "buyerRef": "Sample / demo only",
+      "stage": 5,
+      "updated": "2026-10-10",
+      "events": [
+        {"stage": 0, "date": "2026-08-20", "note": "Proforma invoice confirmed, deposit received"},
+        {"stage": 1, "date": "2026-08-25", "note": "Production started at factory"},
+        {"stage": 3, "date": "2026-09-30", "note": "Goods shipped, B/L copy issued"},
+        {"stage": 4, "date": "2026-10-05", "note": "Vessel departed Ningbo"},
+        {"stage": 5, "date": "2026-10-10", "note": "Arrived at destination port"}
+      ]
+    },
+    {
+      "orderNo": "CS2026-0007",
+      "blNo": "COSU8812045",
+      "containerNo": "TCLU5561098",
+      "product": "CedarHaus Coop M (solid wood)",
+      "qty": "1140 sets / 1880 ctns",
+      "buyerRef": "Sample / demo only",
+      "stage": 3,
+      "updated": "2026-09-28",
+      "events": [
+        {"stage": 0, "date": "2026-07-15", "note": "Contract signed, deposit received"},
+        {"stage": 1, "date": "2026-07-22", "note": "Production started"},
+        {"stage": 2, "date": "2026-09-10", "note": "Pre-shipment inspection passed (AQL 2.5)"},
+        {"stage": 3, "date": "2026-09-28", "note": "Goods shipped, B/L copy issued"}
+      ]
+    }
+  ]
+}

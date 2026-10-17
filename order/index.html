@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Track Your Order — Shipment & Customs Status | China Selection</title>
+<meta name="description" content="Track your China Selection order by order number, bill of lading (B/L) number, or container number. No login required.">
+<link rel="canonical" href="https://china-selection.com/order/">
+<link rel="stylesheet" href="/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Order Tracking",
+  "description":"Track shipment status by order number, B/L number, or container number."
+}
+</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="logo" href="/"><span class="dot"></span>China Selection</a>
+  <nav class="nav"><a href="/pet/">Pet Supplies</a><a href="/drinkware/">Drinkware</a><a href="/coop/">Coops</a><a href="/factories/">Factories</a><a href="/rules/">How Buying Works</a><a href="/#contact">Contact</a></nav>
+</div></header>
+
+<div class="wrap"><nav class="crumb"><a href="/">Home</a> / Track Order</nav></div>
+
+<section class="hero" style="padding:40px 0 24px">
+  <div class="wrap">
+    <span class="tag">Buyer tools</span>
+    <h1>Track your order</h1>
+    <p class="lead">Enter your <strong>order number</strong>, <strong>bill of lading (B/L) number</strong>, or <strong>container number</strong>. No login required — we know overseas buyers lose passwords.</p>
+    <div class="search-row" style="margin-top:22px">
+      <input id="q" type="text" placeholder="e.g. CS2026-0001 / MAEU7739104 / MSKU9023417">
+      <button id="btn" class="btn btn-primary" type="button">Track</button>
+    </div>
+    <p class="note" style="margin-top:10px">Try the demo numbers above to see how it works. Live data connects to the order backend in production.</p>
+  </div>
+</section>
+
+<section style="padding-top:8px">
+  <div class="wrap" style="max-width:760px">
+    <div id="result" class="result-box" style="display:none"></div>
+    <div id="err" class="err-box" style="display:none">No shipment found for that number. Check the spelling, or contact your account manager. If you are a new buyer, your order appears here once production is confirmed.</div>
+    <div class="notice" style="margin-top:24px">China Selection shows status from the factory and freight forwarder. We do <strong>not</strong> hold buyer funds and do <strong>not</strong> guarantee delivery dates or cargo condition — see <a href="/rules/">How Buying Works</a>.</div>
+  </div>
+</section>
+
+<footer class="site-foot"><div class="wrap"><div class="cols">
+  <div><div class="logo" style="color:#fff"><span class="dot"></span>China Selection</div><p style="margin-top:12px;font-size:14px;color:#9fb0c2;max-width:280px">Verified Chinese factories with customs-ready product data.</p></div>
+  <div><h4>Categories</h4><ul><li><a href="/pet/">Pet Supplies</a></li><li><a href="/drinkware/">Drinkware</a></li><li><a href="/coop/">Coops</a></li></ul></div>
+  <div><h4>Buyers</h4><ul><li><a href="/order/">Track Order</a></li><li><a href="/rules/">How Buying Works</a></li><li><a href="/#guides">Guides</a></li></ul></div>
+  <div><h4>Sellers</h4><ul><li><a href="/sellers/">Join as Supplier</a></li><li><a href="/factories/">Factory Profiles</a></li></ul></div>
+</div><div class="legal">China Selection is a sourcing platform. We do not hold buyer funds and do not provide payment guarantees or insurance. © 2026 China Selection</div></div></footer>
+
+<script src="/js/order-lookup.js"></script>
+</body>
+</html>

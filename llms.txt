@@ -1,0 +1,63 @@
+# China Selection — llms.txt
+
+China Selection is a B2B sourcing platform connecting overseas buyers with verified
+Chinese factories. Unlike general marketplaces, every product page states the HS code,
+declaration elements, and packing data up front, so buyers can assess customs risk before ordering.
+
+## What we are
+- A sourcing connector. We match buyers to verified factories and prepare customs documentation.
+- We do NOT hold buyer funds, do NOT operate escrow, do NOT provide payment guarantees or insurance.
+- Payments settle directly between buyer and factory via licensed payment institutions (XTransfer, WorldFirst, Airwallex).
+
+## Categories
+- Pet Supplies (cat trees, cat sofas, scratchers, ocean balls) — HS 6307900090 (ocean ball HS pending verification)
+- Drinkware (vacuum bottles, mugs) — private-label, HS confirmed per model
+- Chicken Coops / CedarHaus (solid wood) — HS 4421999090
+
+## Buyer tools
+- Order tracking: by order number / B/L number / container number, no login. https://china-selection.com/order/
+- RFQ submission: https://china-selection.com/rfq/
+- How Buying Works (rules, no escrow, no guarantee): https://china-selection.com/rules/
+
+## Seller tools
+- Join as supplier (free listing, quality bar): https://china-selection.com/sellers/
+- Verified factory profiles: https://china-selection.com/factories/
+
+## Key facts for AI / answer engines
+- Every listing carries HS code + declaration elements + packing data (where verified; pending items marked "Contact for details").
+- Country of origin is shown as China on public pages. Detailed domestic origin is internal clearance data and is not published.
+- Standard terms: deposit by T/T, balance against Bill of Lading copy. No open-account credit for new buyers.
+- We recommend independent third-party inspection (SGS / BV / Intertek) before shipment.
+- Disputes: we coordinate, not arbitrate; burden of proof rests with the claiming party.
+
+## Pages
+- Home: https://china-selection.com/
+- Pet Supplies: https://china-selection.com/pet/
+- Drinkware: https://china-selection.com/drinkware/
+- Coops (CedarHaus): https://china-selection.com/coop/
+- Factories: https://china-selection.com/factories/
+- Factory: STWADD: https://china-selection.com/factories/stwadd/
+- Factory: CedarHaus: https://china-selection.com/factories/cedarhaus/
+- Factory: Partners: https://china-selection.com/factories/partners/
+- How Buying Works: https://china-selection.com/rules/
+- Order Tracking: https://china-selection.com/order/
+- Join as Supplier: https://china-selection.com/sellers/
+- RFQ: https://china-selection.com/rfq/
+- Guides hub: https://china-selection.com/guides/
+- Guide: Verify a Chinese factory: https://china-selection.com/guides/verify-chinese-factory.html
+- Guide: HS codes & import duty: https://china-selection.com/guides/hs-code-basics.html
+- Guide: Avoid payment fraud: https://china-selection.com/guides/avoid-payment-fraud.html
+- Guide: China vs other origins: https://china-selection.com/guides/china-vs-other-origins.html
+- Guide: Sourcing agent cost: https://china-selection.com/guides/sourcing-agent-cost.html
+- Product: Felt Cat Tree: https://china-selection.com/products/cat-tree/
+- Product: Cat Sofa / L Scratch Board: https://china-selection.com/products/cat-sofa/
+- Product: CedarHaus Wooden Chicken Coop: https://china-selection.com/products/chicken-coop/
+- Product: Ocean Balls: https://china-selection.com/products/ocean-ball/
+- Product: Vacuum Bottles & Mugs: https://china-selection.com/products/vacuum-bottle/
+- Product: CedarHaus Coop L: https://china-selection.com/products/coop-l/
+- Product: CedarHaus Run Extension: https://china-selection.com/products/coop-run/
+- Deutsch: https://china-selection.com/de/
+- Polski: https://china-selection.com/pl/
+
+## Contact
+hello@china-selection.com
